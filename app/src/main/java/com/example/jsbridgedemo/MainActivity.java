@@ -42,6 +42,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        webView.loadUrl("https://www.google.com");
+        webView.loadUrl("http://localhost:8080");
     }
 }
