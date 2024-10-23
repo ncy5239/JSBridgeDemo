@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "As You Like It", Toast.LENGTH_SHORT).show();
+                webView.evaluateJavascript("H5Alert();", null);
+
             }
         });
 
