@@ -50,12 +50,11 @@ public class MainActivity extends AppCompatActivity {
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "As You Like It", Toast.LENGTH_SHORT).show();
                 webView.evaluateJavascript("H5Alert();", null);
-
             }
         });
 
+        webView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
         webView.loadUrl("http://10.0.0.61:8080");
     }
 }

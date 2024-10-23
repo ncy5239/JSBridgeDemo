@@ -7,11 +7,14 @@
 </head>
 <body>
 <button id="myButton">Call Native Toast</button>
+<p> Native called H5 times: <span id="calledTimes">0</span></p>
 <script>
+    var calledTimes = 0;
     document.getElementById('myButton').addEventListener('click', function() {
         Android.showToast('H5 called Native')
     });
     window.H5Alert = function() {
+        document.getElementById('calledTimes').innerText = calledTimes+=1;
         alert('Native called H5');
     }
 </script>
