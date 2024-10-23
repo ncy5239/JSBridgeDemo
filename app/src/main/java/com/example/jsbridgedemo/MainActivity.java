@@ -42,6 +42,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        webView.loadUrl("http://localhost:8080");
+        webView.loadUrl("http://10.0.0.61:8080");
     }
 }
