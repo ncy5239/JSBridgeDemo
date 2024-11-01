@@ -32,8 +32,13 @@ npm run dev
 ### Step 5: Run the App
 Click **Run App** in Android Studio to launch the demo.
 
-## How to Find Your IPv4 Address
+## How to Find Your Local IPv4 address
+### Windows:
 Open PowerShell/Terminal and run the command:
 ```bash
 ipconfig
+```
+### Mac OS
+```bash
+ifconfig
 ```
