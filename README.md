@@ -17,10 +17,10 @@ git clone https://github.com/ncy5239/JSBridgeDemo.git
 
 ### Step 3: Configure Network Settings
 1. **Update IP Address in Network Security Config**  
-   Open `app/res/xml/network_security_config.xml` and replace `"10.0.0.61"` with your own IPv4 address (e.g., `"192.168.123.32"`).
+   Open `app/res/xml/network_security_config.xml` and replace `"10.0.0.61"` with your own LAN IPv4 address (e.g., `"192.168.123.32"`).
 
 2. **Update IP Address in Main Activity**  
-   Open `app/java/com.example.jsbridgedemo/MainActivity` and replace `"http://10.0.0.61:8080"` with your IPv4 address (e.g., `"http://192.168.123.32:8080"`).
+   Open `app/java/com.example.jsbridgedemo/MainActivity` and replace `"http://10.0.0.61:8080"` with your LAN IPv4 address (e.g., `"http://192.168.123.32:8080"`).
 
 ### Step4: Start H5
 ```
