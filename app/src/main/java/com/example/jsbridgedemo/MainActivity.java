@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        WebView webView = findViewById(R.id.health_manage_webview);
+        WebView webView = findViewById(R.id.demo_webview);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
