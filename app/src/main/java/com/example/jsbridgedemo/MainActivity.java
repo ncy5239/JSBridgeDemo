@@ -55,6 +55,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         webView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
-        webView.loadUrl("http://10.0.0.61:8080");
+        webView.loadUrl("http://10.160.52.216:8080");
     }
 }

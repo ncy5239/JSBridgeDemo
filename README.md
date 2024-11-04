@@ -15,19 +15,20 @@ git clone https://github.com/ncy5239/JSBridgeDemo.git
 2. Navigate to **File -> Open** and select the `JSBridgeDemo` project folder.
 3. Wait for the project to load and ensure it is viewed in **Android** mode.
 
-### Step 3: Configure Network Settings
-1. **Update IP Address in Network Security Config**  
-   Open `app/res/xml/network_security_config.xml` and replace `"10.0.0.61"` with your own LAN IPv4 address (e.g., `"192.168.123.32"`).
-
-2. **Update IP Address in Main Activity**  
-   Open `app/java/com.example.jsbridgedemo/MainActivity` and replace `"http://10.0.0.61:8080"` with your LAN IPv4 address (e.g., `"http://192.168.123.32:8080"`).
-
-### Step4: Start H5
+### Step 3: Start H5
 ```
 cd H5
 npm i
 npm run dev
 ```
+If the H5 server runs successfully, the LAN IPv4 address is the one shown below.
+
+### Step 4: Configure Network Settings
+1. **Update IP Address in Network Security Config**  
+   Open `app/res/xml/network_security_config.xml` and replace `"10.0.0.61"` with your own LAN IPv4 address (e.g., `"192.168.123.32"`).
+
+2. **Update IP Address in Main Activity**  
+   Open `app/java/com.example.jsbridgedemo/MainActivity` and replace `"http://10.0.0.61:8080"` with your LAN IPv4 address (e.g., `"http://192.168.123.32:8080"`).
 
 ### Step 5: Run the App
 Click **Run App** in Android Studio to launch the demo.
