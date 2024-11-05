@@ -21,7 +21,7 @@ cd H5
 npm i
 npm run dev
 ```
-If the H5 server runs successfully, the LAN IPv4 address is the one shown below.
+If the H5 server runs successfully, the LAN IPv4 address will be shown below.
 
 ### Step 4: Configure Network Settings
 1. **Update IP Address in Network Security Config**  
