@@ -24,6 +24,7 @@ npm run dev
 If the H5 server runs successfully, the LAN IPv4 address will be shown below.
 
 ### Step 4: Configure Network Settings
+Swith to Project model
 1. **Update IP Address in Network Security Config**  
    Open `app/res/xml/network_security_config.xml` and replace `"10.0.0.61"` with your own LAN IPv4 address (e.g., `"192.168.123.32"`).
 
